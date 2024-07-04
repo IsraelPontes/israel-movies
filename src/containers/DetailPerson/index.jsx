@@ -40,7 +40,7 @@ function DetailPerson() {
                 })
         }
         getAllData()
-    }, [])
+    }, [id])
 
     return (
         <>

@@ -45,7 +45,7 @@ function Detail() {
                 })
         }
         getAllData()
-    }, [])
+    }, [id])
 
     return (
         <>

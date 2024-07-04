@@ -13,7 +13,7 @@ function Card({ item}) {
             navigate(`/detalhesperson/${item.id}`)
         }else{
             navigate(`/detalheserie/${item.id}`)
-        }
+        };
     }
 
     return (
