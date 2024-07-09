@@ -3,15 +3,15 @@ import { getImages } from '../../utils/getImages'
 import { Container } from './styled'
 import api from '../../services/api'
 
-function Card({ item}) {
+function Card({ item }) {
     const navigate = useNavigate()
-
+    
     const cardClick = () => {
         if (item.video === false) {
             navigate(`/detalhe/${item.id}`)
-        }else if(item.known_for_department === "Acting") {
+        } else if (item.known_for_department === "Acting") {
             navigate(`/detalhesperson/${item.id}`)
-        }else{
+        } else {
             navigate(`/detalheserie/${item.id}`)
         };
     }

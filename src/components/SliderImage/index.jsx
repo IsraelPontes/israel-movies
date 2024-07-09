@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import CardImage from '../CardImage'
 
 function SliderImage({ info, title }) {
-    console.log("info", info)
     return (
         <Container>
             <h2>{title}</h2>
