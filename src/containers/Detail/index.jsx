@@ -33,8 +33,8 @@ function Detail() {
                     setMovieSimilar(similar)
                     setFormattedDate(
                         movie.release_date
-                            ? `Lançado Em: ${movie.release_date.split('-').reverse().join('/')}`
-                            : 'Data de lançamento não disponível'
+                            ? `Faz aniversário em: ${movie.release_date.split('-').reverse().join('/')}`
+                            : ''
                     );
                 })
         }

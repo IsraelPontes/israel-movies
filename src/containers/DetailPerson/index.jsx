@@ -32,10 +32,10 @@ function DetailPerson() {
                     setPersonSerieCredits(seriecredits)
                     setBirthdaytDate(
                         person.birthday
-                            ? `Nascida Em: ${person.birthday.split('-').reverse().join('/')
+                            ? `Faz aniversário em: ${person.birthday.split('-').reverse().join('/')
                             + ', em ' + person.place_of_birth
                             }`
-                            : 'Data de lançamento não disponível'
+                            : ''
                     );
                 })
         }

@@ -35,12 +35,12 @@ function Detail() {
                     setFirstDate(
                         serie.first_air_date
                             ? `Primeiro Episódio Lançado Em: ${serie.first_air_date.split('-').reverse().join('/')}`
-                            : 'Data de lançamento não disponível'
+                            : ''
                     );
                     setSecondDate(
                         serie.last_air_date
                             ? `Último Episódio Lançado Em: ${serie.last_air_date.split('-').reverse().join('/')}`
-                            : 'Data de lançamento não disponível'
+                            : ''
                     );                    
                 })
         }
